@@ -1,3 +1,17 @@
 h1.Home {
-    color:chartreuse
+    color:antiquewhite
 }
+
+body{ 
+    background-image: url("https://content.elmueble.com/medio/2023/05/22/gatitos_1f740045_230522123911_1000x667.jpg");
+}
+
+.div-1 {
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+}
+
+    header {
+        background-color: #533a18;
+    }
