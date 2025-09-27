@@ -18,12 +18,19 @@ h1.Home {
     z-index: 9999;
 }
 
-.div-1 {
+/*.div-1 {
     background-color: antiquewhite;
     width: 100px;
     height: 100px;
+}*/
+.welco
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
 
 header 
 {
@@ -61,10 +68,6 @@ nav a
     font-size: 20px;       
 }
 
-h1{
-
-}
-
 .Services {
     background-color: rgb(122, 114, 107);
     padding: 10px;
@@ -79,4 +82,41 @@ div.seccion {
     background-repeat: no-repeat;
     background-image: url(public/cute-cat-paw-all-white-free-png.webp);
 
+}
+main 
+{ 
+    padding-top: 140px;
+}
+
+/*css página de sobre mi*/
+/* Sección sobre, minimal */
+
+.sobre
+{
+    max-width: auto;
+    margin: 30px;
+    background: #fffdf9;
+    border: 3px solid #eee2d6;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+
+.lista-simple li
+{
+    margin: 6px;
+}
+
+.info-simple
+{
+    background: #f9f3ea;
+    border: 3px solid #eadfce;
+    border-radius: 10px;
+    padding: 12px;
+}
+.imagen-micheria
+{
+    width: 100%;
+    height: 90%;
+    display: block;
 }
