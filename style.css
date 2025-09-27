@@ -274,9 +274,11 @@ nav a:hover {
 {
     .contacto-wrap{ flex-direction: column; }
 }
- /*css del footer*/
- 
+
+/*css del footer*/
+
 .footer-contenido 
 {
     display: flex;
- }
+    border: 3px solid color black;
+}
