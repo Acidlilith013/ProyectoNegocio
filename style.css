@@ -276,9 +276,20 @@ nav a:hover {
 }
 
 /*css del footer*/
+footer
+{
+    border: 3px solid black;
+    background-color: antiquewhite;
 
+}
 .footer-contenido 
 {
     display: flex;
-    border: 3px solid color black;
+
+}
+nav.footer-nav
+{
+    display: flex;
+    flex-direction: column;
+    
 }
