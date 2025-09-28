@@ -83,6 +83,11 @@ header {
     color: floralwhite;
 }
 
+.text-0
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .text-1
 {
     font-size: 20px;
@@ -131,6 +136,25 @@ main
 .lista-simple li
 {
     margin: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.CTA
+{
+    background: #f9f3ea;
+    border: 3px solid #eadfce;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 60px;
+}
+.CTA-child
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    text-decoration: none;
+    color:#e0996d
 }
 
 .info-simple
@@ -139,7 +163,7 @@ main
     border: 3px solid #eadfce;
     border-radius: 10px;
     padding: 12px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .imagen-micheria
 {
