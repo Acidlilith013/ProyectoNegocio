@@ -322,9 +322,8 @@ nav.footer-nav a
 
 .footer-info 
 {
-    /*manuelda*/
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: #333;
-    max-width: 300px;
+    max-width: 400px;
 }
