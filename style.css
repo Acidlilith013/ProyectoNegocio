@@ -1,8 +1,8 @@
-body.home {
+/*body.home {
     background-image: url("https://content.elmueble.com/medio/2023/05/22/gatitos_1f740045_230522123911_1000x667.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
 body.fondo-Servicios {
         background-image: url(public/pacat_paws_background.jpg);
@@ -104,6 +104,13 @@ main {
 
 .Play {
     background-image: url(public/cat-play-with-yarn-ball-on-transparent-background-png.webp);
+    background-size:cover;
+    width: 200px;
+    height: 200px; 
+}
+
+.Take-care {
+    background-image: url(public/gatito\ triste.png);
     background-size:cover;
     width: 200px;
     height: 200px; 
