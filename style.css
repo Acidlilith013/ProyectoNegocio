@@ -40,7 +40,7 @@ header.barra {
     color: #000;
     padding: 1rem 60px;
     box-sizing: border-box;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     left: 0;
@@ -87,8 +87,16 @@ header {
     color: floralwhite;
 }
 
-.Feeding, .Adopción {
-    display: inline-block;
+.text-0
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-1
+{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
 }
 
 .Feeding {
@@ -143,6 +151,25 @@ main {
 
 .lista-simple li {
     margin: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.CTA
+{
+    background: #f9f3ea;
+    border: 3px solid #eadfce;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 60px;
+}
+.CTA-child
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    text-decoration: none;
+    color:#e0996d
 }
 
 .info-simple {
@@ -150,6 +177,7 @@ main {
     border: 3px solid #eadfce;
     border-radius: 10px;
     padding: 12px;
+    margin-top: 40px;
 }
 
 .imagen-micheria {
@@ -320,7 +348,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1100px;
+    max-width: auto;
     margin: 0 auto;
     gap: 20px;
 }
@@ -332,15 +360,26 @@ nav.footer-nav {
     gap: 10px;
 }
 
-nav.footer-nav a {
+nav.footer-nav a 
+{
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 
-.footer-info {
+.footer-info 
+{
     display: block;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: #333;
-    max-width: 300px;
+    max-width: 400px;
+    padding-top:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.logo-footer
+{
+    width: 170px;
+    height: auto;
 }
