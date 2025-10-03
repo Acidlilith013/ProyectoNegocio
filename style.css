@@ -4,13 +4,8 @@ body.home {
     background-size: cover;
 }
 
-.fondo-Servicios {
-    /*background-image: url(public/footprints-concept-creative-seamless-pattern-vector.jpg);
-
-    /*opacidad del fondo proporcionado por Lucia*/
-    background-image: linear-gradient(rgba(255, 255, 255, 0.438), rgba(255, 255, 255, 0.424)), url(public/footprints-concept-creative-seamless-pattern-vector.jpg);
-    background-repeat: repeat;
-    background-size: cover;
+body.fondo-Servicios {
+        background-image: url(public/pacat_paws_background.jpg);
 }
 
 
@@ -71,11 +66,9 @@ header {
     text-align: center;
 }
 
-.caja-servicios {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*css página de servicios*/
+main {
+    padding-top: 50px;
 }
 
 .Services {
@@ -85,6 +78,33 @@ header {
     margin-right: auto;
     width: fit-content;
     color: floralwhite;
+}
+.caja-servicios {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Feeding {
+    background-image: url(public/feeding_imagen.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;    
+}
+
+.Adopción {
+    background-image: url(public/cartoon-illustration-with-cat-and-modern-house-png.webp);
+    background-size:cover;
+    width: 200px;
+    height: 175px;
+}
+
+.Play {
+    background-image: url(public/cat-play-with-yarn-ball-on-transparent-background-png.webp);
+    background-size:cover;
+    width: 200px;
+    height: 200px; 
 }
 
 .text-0
@@ -99,37 +119,11 @@ header {
     font-weight: 600;
 }
 
-.Feeding {
-    background-image: url(public/feeding_imagen.png);
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-
-    text-align: center;
-    
-}
-
-.Feeding h2 {
-    padding-top: 80px;
+div.serv-title {
+    font-size: 30px;
     font-weight: bold;
     color: black;
-}
-
-.Adopción {
-    background-image: url(public/cartoon-illustration-with-cat-and-modern-house-png.webp);
-    background-size:cover;
-    width: 200px;
-    height: 175px;
     text-align: center;
-    color: #c66868;
-}
-
-.Adopción h2 {
-    padding: 50px;
-}
-
-main {
-    padding-top: 140px;
 }
 
 /*css página de sobre mi*/
