@@ -46,3 +46,16 @@ for (let i = 0; i < myClass3.length; i++)
                 myClass3[i].classList.toggle("myDiv24");
             }
     }
+
+
+    /*Equipo*/
+
+    document.addEventListener("DOMContentLoaded", () => {
+  const members = document.querySelectorAll(".team-member");
+
+  members.forEach(member => {
+    member.addEventListener("click", () => {
+      alert(`Has seleccionado a ${member.querySelector("h2").textContent}`);
+    });
+  });
+});
