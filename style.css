@@ -610,7 +610,6 @@ nav.footer-nav a
     box-shadow: 0 6px 18px rgba(0,0,0,.15);
 }
 
-<<<<<<< HEAD
 /* Responsive CSS*/
 
 
@@ -750,7 +749,6 @@ nav.footer-nav a
         height: 300px;
     }
 }
-=======
 /*Equipo*/
 
 .team-grid {
@@ -768,11 +766,6 @@ nav.footer-nav a
   text-align: center;
 }
 
-.team-member img {
-  width: 100px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
 
 .social-links a {
   margin: 0 0.5rem;
@@ -816,8 +809,7 @@ nav.footer-nav a
 }
 
 .team-member img {
-  width: 100px;
-  border-radius: 50%;
+  width: 300px;
   margin-bottom: 1rem;
 }
 
@@ -842,4 +834,3 @@ nav.footer-nav a
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
->>>>>>> 40537af (intento subida)
