@@ -176,7 +176,59 @@ div.serv-title {
 
 /*css página de sobre mi*/
 /* Sección sobre, minimal */
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdf6f0;
+      text-align: center;
+      padding: 2rem;
+    }
+    #output {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #444;
+    }
+    img {
+      max-width: 300px;
+      margin-top: 1rem;
+      border-radius: 10px;
+    }
+    button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      background-color: #ffb6b9;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffa4a7;
+    }
+    #output {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #444;
+}
 
+#output img {
+  max-width: 300px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #ffb6b9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffa4a7;
+}
+
+    
 .sobre {
   display: flex;
   align-items: center;
