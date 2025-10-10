@@ -50,12 +50,28 @@ for (let i = 0; i < myClass3.length; i++)
 
     /*Equipo*/
 
-    document.addEventListener("DOMContentLoaded", () => {
-  const members = document.querySelectorAll(".team-member");
+   document.addEventListener("DOMContentLoaded", () => {
+  const gato = document.getElementById("gato-saltarin");
+  const miembros = document.querySelectorAll(".team-member");
 
-  members.forEach(member => {
-    member.addEventListener("click", () => {
-      alert(`Has seleccionado a ${member.querySelector("h2").textContent}`);
+  miembros.forEach((miembro) => {
+    miembro.addEventListener("click", () => {
+      const rect = miembro.getBoundingClientRect();
+      const scrollY = window.scrollY;
+
+      // Posición centrada sobre el miembro
+      const top = rect.top + scrollY - 100;
+      const left = rect.left + rect.width / 2 - 40;
+
+      // Simula salto con transform
+      gato.style.transform = "translateY(-30px)";
+      gato.style.top = `${top}px`;
+      gato.style.left = `${left}px`;
+
+      // Vuelve a posición normal después del salto
+      setTimeout(() => {
+        gato.style.transform = "translateY(0)";
+      }, 300);
     });
   });
 });
