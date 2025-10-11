@@ -41,6 +41,7 @@ header.barra {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 
 header h1 {
@@ -905,8 +906,8 @@ header nav a {
 /*Equipo*/
 
 .team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  grid-template-columns: auto;
   gap: 2rem;
   padding: 2rem;
 }

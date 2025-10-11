@@ -142,7 +142,7 @@ function mostrarSiguiente() {
     `;
     indice++;
   } else {
-    output.innerHTML = "<p>🐾 ¡Ya viste todos los servicios!</p>";
+    indice = 0;
   }
 }
 
