@@ -1,102 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Michería House – Espacio para Michis Felices</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="barra">
-        <a href="index.html"><img src="public\Logo.png" alt="La Micheria House" class="logo"></a>
-                <h1>La Micheria House</h1>
-        <nav>
-                    <a href="index.html">Inicio</a>
-                    <a href="Sobre.html">Sobre mi</a>
-                    <a href="Nuestros servicios.html">Servicios</a>
-                    <a href="equipo.html">Equipo</a>
-                    <a href="contacto.html">Contacto</a>
-        </nav>
-        </header>
-        
-    <main>
-        <section class="welco">
-            <h2 class="Services">Sobre la tienda</h2>
-
-                <p class="text-1">Somos un espacio creado por y para amantes de los gatos: sencillo, cercano y con cariño.</p>
-        </section>
-        <section class="display-sobre">
-            <div>
-                <img src="public\imagensobremi.png" alt="Ilustración anime de cuatro personas rodeadas de gatos." class="imagen-micheria" >
-            </div>
-
-        <section class="sobre">
-
-           
-
-        <p class = "text-0"><strong>La Micheria House</strong> nace con una idea clara: ofrecer un lugar donde tu michi esté tranquilo,bien atendido y con productos que de verdad le sientan bien.</p>
-
-            <ul class="lista-simple">
-
-                <li>Selección cuidada de arena, comida y accesorios probados por gateros y veterinarios.</li>
-                <li>Asesoría nutricional 1:1 (pienso, húmeda o BARF) con planes de transición sin estrés.</li>
-                <li>Espacio antiestrés con feromonas y música suave para visitas tranquilas.</li>
-                <li>Taller exprés de cepillado sin drama para humanos y felinos.</li>
-                <li>Diagnóstico de “arenero ideal” (tamaño, tipo de arena y ubicación en casa).</li>
-                <li>Sesiones guiadas de juego activo para quemar energía y prevenir mordisqueos.</li>
-                <li>Pesaje amable y revisión básica sin jaulas ni prisas.</li>
-                <li>Recordatorios discretos de vacunas, antiparasitarios y revisiones (WhatsApp o email).</li>
-                <li>Zona de prueba de rascadores y camitas: si tu gato no lo aprueba, no te lo llevas.</li>
-                <li>Photocall gatuno y retrato “señor/a del sofá” (sin disfraces, con dignidad).</li>
-                <li>Servicio solemne de “si su gato se duerme en nuestro regazo, no nos movemos”.</li>
-                <li>Tarjeta de puntos: cada compra suma para descuentos y donaciones a colonias felinas.</li>
-            </ul>
-
-        <div class="CTA">
-
-                <a class="CTA-child" href="/servicios" aria-label="Accede a nuestros servicios">A tu gato probablemente le da igual…<br> pero tú sabes que merece lo mejor</a>
-        </div>
-        <div class="info-simple">
-
-                <p><strong>Horario:</strong> L–V 10:00–14:00 / 17:00–20:30 · S 10:00–14:00</p>
-                <p><strong>Ubicación:</strong> Casa de gominola, en la calle de la piruleta, Nº 123 </p>
-                <p><strong>Contacto:</strong> <a href="contacto.html">Escríbenos</a></p>
-        </div>
-        </section>
-        </section>
-    </main>
-    
-</body>
-    <footer>
-
-    <div class="footer-contenido">
-    <div class="logo">
-    <img src="public\Logo.png" alt="Logo de La Micheria House" class="logo-footer">
-    </div>
-
-    <nav class="footer-nav">
-        <h4>Mapa del sitio</h4>
+      <a href="index.html">
+        <img
+          src="public/logo.png"
+          alt="Logo de La Michería House"
+          class="logo"
+        />
+      </a>
+      <h1>La Michería House</h1>
+      <nav>
         <a href="index.html">Inicio</a>
         <a href="sobre.html">Sobre la tienda</a>
         <a href="nuestros-servicios.html">Servicios</a>
         <a href="equipo.html">Equipo</a>
         <a href="contacto.html">Contacto</a>
-    </nav>
-    </nav><nav class="footer-nav">
-        <h4>Páginas legales</h4>
-        <a href="#">Aviso legal</a>
-        <a href="#">Politica de cookies</a>
-        <a href="#">Politica de Privacidad</a>
-    </nav>
+      </nav>
+    </header>
 
-    <div class="footer-info">
-        <h4><span style="font-size: 16px;">Contacto</span></h4>
-        <p>Casa de gominola,<br> en la calle de la piruleta,<br> Nº 123</p>
-        <p>600 000 000</p>
-        <p>hola@michisfelices.com</p>   
-    </div>
+    <main>
+      <p class="text-0">
+        <strong>La Michería House</strong> nace con una idea clara: ofrecer un
+        lugar donde tu michi esté tranquilo, bien atendido y con productos que
+        de verdad le sientan bien.
+      </p>
 
-</footer>
-</html>&copy; 2025 MichiTeamDevWeb · Todos los derechos reservados 🐾
+      <section>
+        <div id="output">
+          <h3>Presiona el botón para ver nuestros servicios</h3>
+        </div>
+        <button onclick="mostrarSiguiente()">Ver siguiente servicio</button>
+      </section>
 
-        
+      <div class="info-simple">
+        <p>
+          <strong>Horario:</strong> L–V 10:00–14:00 / 17:00–20:30 · S
+          10:00–14:00
+        </p>
+        <p>
+          <strong>Ubicación:</strong> Casa de gominola, en la calle de la
+          piruleta, Nº 123
+        </p>
+        <p><strong>Contacto:</strong> <a href="contacto.html">Escríbenos</a></p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-contenido">
+        <div class="logo">
+          <img
+            src="public/logo.png"
+            alt="Logo de La Michería House"
+            class="logo-footer"
+          />
+        </div>
+
+        <div class="footer-info">
+          <h4><span style="font-size: 16px">Contacto</span></h4>
+          <div class="footer-div">
+            <p>
+              Casa de gominola,<br />en la calle de la piruleta,<br />Nº 123
+            </p>
+            <p>600 000 000</p>
+            <p>hola@michisfelices.com</p>
+          </div>
+        </div>
+      </div>
+
+      <p style="text-align: center; margin-top: 1rem">
+        &copy; 2025 MichiTeamDevWeb · Todos los derechos reservados 🐾
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
