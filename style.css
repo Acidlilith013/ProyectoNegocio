@@ -83,35 +83,33 @@ main {
 }
 
 .caja-servicios {
-  gap: 20px;
+  gap: 100px;
+  margin-bottom: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .Feeding {
-  background-image: url(public/feeding_imagen.png);
   background-size: cover;
   width: 200px;
   height: 200px;
 }
 
 .Adopción {
-  background-image: url(public/);
   background-size: cover;
   width: 200px;
   height: 200px;
 }
 
 .Play {
-  background-image: url(public/cat-play-with-yarn-ball-on-transparent-background-png.webp);
   background-size: cover;
   width: 200px;
   height: 200px;
 }
 
 .Take-care {
-  background-image: url(public/gatito\ triste.png);
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -139,7 +137,12 @@ div.serv-title {
   padding: 50px;
 }
 
-/*css del servicio de adopción*/
+/* Servicio de adopción */
+
+.card h3 {
+  font-family: Arial;
+  font-weight: bo;
+}
 
 .gatos-adopt {
   display: flex;
@@ -150,27 +153,34 @@ div.serv-title {
   gap: 20px;
 }
 
-.gatos-adopt>.caract {
+.gatos-adopt>.card {
   padding: 10px;
-  width: 190px;
-  height: 230px;
   align-items: center;
   justify-content: center;
 
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.caract>img {
-  width: 190px;
-  height: 190px;
+.card>img {
+  max-width: 400px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.caract h2 {
-  height: fit-content;
-  font-size: 20px;
+/* Sección de tienda */
+
+.product {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  /*display: none;*/
+}
+
+.food-prod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /*css página de sobre mi*/
